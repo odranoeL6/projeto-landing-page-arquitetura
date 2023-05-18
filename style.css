@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#titulo-menu-primario {
+    color: #FFFFFF;
+    padding-top: 206px;
+    margin-left: 62px;
+    font-weight: 600px;
+    font-size: 60px;
+}
+
+#texto-menu-primario {
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 62px;
+}
+
+#menu-primario {
+    background-color: #303030;
+    height: 475px;
+}
+
+#menu-com-numeros {
+    background-color: #F9F9F9;
+    height: 229px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info-em-numeros {
+    margin: 96px 65px 66px 171px;
+    font-size: 20px;
+}
+
+#info-1 {
+    width: 292px;
+}
+
+#info-2 {
+    width: 354px;
+}
+
+#info-3 {
+    width: 361px;
+}
+
+#menu-informacional {
+    background-color: #FFFFFF;
+    height: 500px;
+}
+
+#titulo-menu-informacional {
+    color: #000000;
+    margin-top: 325px;
+    margin-left: 225px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+#texto-menu-informacional {
+    color: #000000;
+    margin-left: 225px;
+    font-weight: normal;
+}
+
+#imagem-1 {
+    height: 605px;
+    width: 510px;
+    left: 876px;
+    top: 781px;
+    position: absolute;
+    padding-left: 64px;
+    margin: 82px 54px 92px 150px;
+    border-radius: 30px;
+}
+
+#formulario {
+    background-color: #303030;
+    height: 638px;
+    text-align: center;
+}
+
+#titulo-formulario {
+    color: #FFFFFF;
+    padding-top: 87px;
+    margin: 30px;
+    font-size: 32px;
+}
+
+input {
+    background-color: #FFFFFF;
+    color: #0000004D;
+    height: 72px;
+    width: 508px;
+    margin: 25px;
+    padding-left: 30px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: 'raleway';
+    font-style: normal;
+    font-weight: 600;
+    cursor: text
+}
+
+input:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 10px 15px #747474;
+    transition-duration: 0.5s;
+}
+
+button {
+    background-color: #C07212;
+    color: #FFFFFF;
+    height: 72px;
+    width: 286px;
+    margin: 75px;
+    border: 0px;
+    font-size: 30px;
+    font-family: 'raleway';
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 10px 15px #533209;
+    transition-duration: 0.5s;
+}
